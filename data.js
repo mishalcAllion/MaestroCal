@@ -19,6 +19,7 @@ const DATA = {
     { id: 'pasindu',     name: 'Pasindu',               short: 'Pasindu',     role: 'TBD',                          location: 'SL', tz: 'GMT+5:30' },
     { id: 'tharaka',     name: 'Tharaka',               short: 'Tharaka',     role: 'TBD',                          location: 'SL', tz: 'GMT+5:30' },
     { id: 'kugapriyan',  name: 'Kugapriyan',            short: 'Kugapriyan',  role: 'TBD',                          location: 'SL', tz: 'GMT+5:30' },
+    { id: 'thilini',     name: 'Thilini',               short: 'Thilini',     role: 'QA',                           location: 'SL', tz: 'GMT+5:30' },
   ],
 
   // ── Public holidays ──
@@ -37,6 +38,9 @@ const DATA = {
     { memberId: 'waruna', date: '2026-05-13', type: 'confirmed', reason: 'Personal leave' },
     { memberId: 'waruna', date: '2026-05-14', type: 'confirmed', reason: 'Personal leave' },
     { memberId: 'waruna', date: '2026-05-15', type: 'tentative', reason: 'Personal leave (TBC)' },
+    { memberId: 'thilini', date: '2026-04-15', type: 'confirmed', reason: 'Planned leave' },
+    { memberId: 'thilini', date: '2026-04-16', type: 'confirmed', reason: 'Planned leave' },
+    { memberId: 'thilini', date: '2026-04-17', type: 'confirmed', reason: 'Planned leave' },
   ],
 
   // ── Release milestones ──
